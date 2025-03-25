@@ -1,0 +1,22 @@
+{
+    "name": "Introduction to SAP CAP",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "VARIANT": "20"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "sapse.vscode-cds",
+                "dbaumgarten.vscode-eslint",
+                "humao.rest-client",
+                "qwtel.sqlite-viewer",
+                "mechathroner.rainbow-csv",
+            ]
+        }
+    },
+    "forwardPorts": [4004],
+    "remoteUser": "node"
+}
